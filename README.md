@@ -40,5 +40,5 @@ yarn install
 Start the dev server
 
 ```
-bun run dev
+yarn start
 ```
