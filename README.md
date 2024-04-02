@@ -1,4 +1,3 @@
-
 # CDO Stay
 
 A airbnb like project but for cagayan de oro city
@@ -6,9 +5,6 @@ A airbnb like project but for cagayan de oro city
 Project Context
 
 A project to implement coding standards and best practices when developing a React application.
-
-
-
 
 ## Authors
 
@@ -40,5 +36,5 @@ yarn install
 Start the dev server
 
 ```
-yarn start
+yarn dev
 ```
