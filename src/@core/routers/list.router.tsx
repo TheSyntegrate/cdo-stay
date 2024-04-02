@@ -1,6 +1,6 @@
 import { Navigate, RouteObject } from "react-router-dom";
 
-import { AuthScene, DashboardScene } from "./constants/lazy-load.constant";
+import { AuthScene, DashboardScene, LandingScene } from "./constants/lazy-load.constant";
 import { AuthLayout, AppLayout } from "@layouts";
 
 export const authRoute: RouteObject[] = [
@@ -22,7 +22,11 @@ export const appRoute: RouteObject[] = [
     path: "app",
     element: <AppLayout />,
     children: [
-      { element: <Navigate to="dashboard" replace />, index: true },
+      { element: <Navigate to="landing" replace />, index: true },
+      {
+        path: "landing",
+        element: <LandingScene />,
+      },
       {
         path: "dashboard",
         element: <DashboardScene />,

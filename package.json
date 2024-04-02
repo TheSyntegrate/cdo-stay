@@ -16,6 +16,8 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "embla-carousel-react": "^8.0.0",
+    "framer-motion": "^11.0.24",
     "localforage": "1.10.0",
     "lucide-react": "^0.364.0",
     "match-sorter": "6.3.4",

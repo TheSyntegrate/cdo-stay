@@ -5,4 +5,5 @@ export const AUTH_PATH = {
 
 export const APP_PATH = {
   root: "/app",
+  landing: "/app/landing",
 };
